@@ -1,0 +1,27 @@
+{
+  "name": "cristal",
+  "version": "1.0.0",
+  "license": "AGPL-3.0-or-later",
+  "engines": {
+    "node": "^20.0.0",
+    "npm": "^10.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "lint": "eslint src",
+    "stylelint": "stylelint src/**/*.vue src/**/*.scss src/**/*.css"
+  },
+  "browserslist": [
+    "extends @nextcloud/browserslist-config"
+  ],
+  "dependencies": {
+    "@cristal/browser-default": "0.0.0-20240522094030",
+    "@cristal/lib": "0.0.0-20240522094030",
+    "vue": "3.4.27"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "4.6.2",
+    "vite": "4.5.3"
+  },
+  "packageManager": "pnpm@9.1.2"
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>cristal</id>
+	<name>Cristal</name>
+	<summary>Integrates Cristal in Nextcloud</summary>
+	<description>What's Cristal
+- A new xwiki.org project to provide a modern knowledge base front-end
+- A wiki UI to rule them all: Provide a UI that can be plugged onto various content backends (XWiki, local file system, GitHub, etc.)
+- Usable in various forms:
+  - From a URL in your browser
+  - Executable locally on your computer (Electron application).
+  - Embeddable in backends. For example, the intent on the long run is to have Cristal be used by XWiki as its native UI
+- Ability to work offline, reconnect, and sync content.</description>
+	<version>1.0.0</version>
+	<licence>agpl</licence>
+	<author mail="manuel.leduc@xwiki.com" homepage="https://cristal.xwiki.org">Manuel Leduc</author>
+	<namespace>Cristal</namespace>
+	<category>office</category>
+	<bugs>https://jira.xwiki.org/browse/CRISTAL</bugs>
+	<dependencies>
+		<nextcloud min-version="29" max-version="29"/>
+	</dependencies>
+	<navigations>
+		<navigation>
+			<id>cristal</id>
+			<name>Cristal</name>
+			<route>cristal.page.index</route>
+			<icon>app.svg</icon>
+			<type>link</type>
+		</navigation>
+	</navigations>
+</info>
