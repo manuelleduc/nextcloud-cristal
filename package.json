@@ -15,8 +15,8 @@
     "extends @nextcloud/browserslist-config"
   ],
   "dependencies": {
-    "@xwiki/cristal-browser-default": "0.0.0-20240530100452",
-    "@xwiki/cristal-lib": "0.0.0-20240530100452",
+    "@xwiki/cristal-browser-default": "0.8.0",
+    "@xwiki/cristal-lib": "0.8.0",
     "vue": "3.4.27"
   },
   "devDependencies": {
