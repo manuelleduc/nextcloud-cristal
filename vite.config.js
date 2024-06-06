@@ -11,10 +11,10 @@ export default defineConfig({
 	},
 	build: {
 		lib: {
-			entry: resolve(__dirname, './src/main.js'),
+			entry: resolve(__dirname, './src/main.ts'),
 			name: 'nexcloudcristal',
 		},
-		outDir: 'js'
+		outDir: 'js',
 	},
 	plugins: [
 		vue(),

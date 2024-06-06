@@ -8,12 +8,12 @@ importers:
 
   .:
     dependencies:
-      '@cristal/browser-default':
-        specifier: 0.0.0-20240522094030
-        version: 0.0.0-20240522094030
-      '@cristal/lib':
-        specifier: 0.0.0-20240522094030
-        version: 0.0.0-20240522094030(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))(@types/react@18.3.2)
+      '@xwiki/cristal-browser-default':
+        specifier: 0.0.0-20240530100452
+        version: 0.0.0-20240530100452
+      '@xwiki/cristal-lib':
+        specifier: 0.0.0-20240530100452
+        version: 0.0.0-20240530100452(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))(@types/react@18.3.2)
       vue:
         specifier: 3.4.27
         version: 3.4.27
@@ -43,66 +43,6 @@ packages:
   '@babel/types@7.24.5':
     resolution: {integrity: sha512-6mQNsaLeXTw0nxYUYu+NSa4Hx4BlF1x1x8/PMFbiR+GBSr+2DkECc69b8hgy2frEodNcvPffeH8YfWd3LI6jhQ==}
     engines: {node: '>=6.9.0'}
-
-  '@cristal/api@0.0.0-20240522094030':
-    resolution: {integrity: sha512-pGRfgBM3Ps9noQZjfE1bUpp3tbzD10UHsrzf61Aq6U25ajIfpxSoOHSh1o+IOL1lm4vjOYkJSqjAaor2ADepAg==}
-
-  '@cristal/browser-api@0.0.0-20240522094030':
-    resolution: {integrity: sha512-H/dMJymM/ESBtvCbfFor/lwObQby/R6XvHKoZ4Bjs7Uo0BEz5BJA9yMTKqzVf2e39U3YYWbOITUWqx2VOsriQQ==}
-
-  '@cristal/browser-default@0.0.0-20240522094030':
-    resolution: {integrity: sha512-A8WpuZTk1PRL3dSkwDbqnTHwgQ4YeWSgXDRx1q34nn/TQJNtF7y8k86DrP2WOnuWfiA564guGPRkFtRacHYfXg==}
-
-  '@cristal/dsapi@0.0.0-20240522094030':
-    resolution: {integrity: sha512-dxWO1/flCvqHKHUVQpEDS4F0djXWDdYjHeUm0jJVnCKpxiqtY6LmsjHxnatmc82eYiqg+KsTgKj8jSMb3hdEsA==}
-
-  '@cristal/dsfr@0.0.0-20240522094030':
-    resolution: {integrity: sha512-Jw4kP5M0ZNgMIONA8xo08Fh5I1lzm6i6LnFOul5OI34P8Z2bwSqZHk5gDY8FPJzO6gM44XpLgCv2Cisp19L/6Q==}
-
-  '@cristal/dsshoelace@0.0.0-20240522094030':
-    resolution: {integrity: sha512-ztiZ+NDDHgClU1a/BrfesQDDrUskU+OMHXKFFHB2d1ZZH8pHvGjuS1z6L45M8jnzgV0n6QDr1odim/mY8K6tbw==}
-
-  '@cristal/dsvuetify@0.0.0-20240522094030':
-    resolution: {integrity: sha512-1qGAfeYFWyrviOif1HCZlV7vxm9NBXAlZnHQ7f1tbTXsbkYh6xM4bSoghg7VdmR8LhkE98kl1z3bj20QQOf0Mw==}
-
-  '@cristal/editors-tiptap@0.0.0-20240522094030':
-    resolution: {integrity: sha512-pJiUjG5TlVQavLSfb+rauwpkl+u5p5lGqCFkWDq629BO852v6HKbMHVhJtBP+GIEh+Ki5SJjTrcIgEkEpZ0Nww==}
-
-  '@cristal/extension-manager@0.0.0-20240522094030':
-    resolution: {integrity: sha512-tDNzIEbmk3Lu6GurGBWbV4GE+QGSBSodyy80juMV2ed3x0N5oDKbI8O+KyZ8Bov8YhE31qcrSqqoZ4P2oTW7UQ==}
-
-  '@cristal/extension-menubuttons@0.0.0-20240522094030':
-    resolution: {integrity: sha512-WzdpKn5p1tUtmhJQMOdEXIxStE75Bc56HpqafSwYj2iqva2jhLqQ+u4t/0kHOYYn+07BdWsLp4LtLOvPx7HmwA==}
-
-  '@cristal/icons@0.0.0-20240522094030':
-    resolution: {integrity: sha512-DrDGUKSRnpYnpmSUClJxW/rEjufR0rSVgEwJl9S0e0KcRpQtTP0RTiAfsCH8ij9yAq3aocl3rtTtm21MzfctOg==}
-
-  '@cristal/lib@0.0.0-20240522094030':
-    resolution: {integrity: sha512-uLxGH6afeQygsaWKTWQTaYAJWGeY3SGkEeFWF4ctSnobxAc8aZ9Lm4d9k/ikQqoPz2wROqQlPqjieEfXZJP/Ug==}
-
-  '@cristal/link-suggest-api@0.0.0-20240522094030':
-    resolution: {integrity: sha512-eZuOkkE2CUXQusBBTweNMomMZwCRZzhTTWAUOFh9rhL++KxHi8vaQRt7XxTpKvENV5tCkxZCFuNcbTle7hGEZA==}
-
-  '@cristal/macros@0.0.0-20240522094030':
-    resolution: {integrity: sha512-90SrVGXPXyuXHsYBO+1OQl1PrEdEe3DN66/esHHTqkpFb00nsgxnyVNlDT9FVx0SotJbkZKYe5yUwSG0c6w7Kg==}
-
-  '@cristal/rendering-wikimodel@0.0.0-20240522094030':
-    resolution: {integrity: sha512-iW0dGlxARgDhDCfo7Pd9c69kwDpcqu+AgkxVVpsO/HOzQC+lYrxEOsnAZwpxPLsdTPu8cdgFXD8PkIlUtmqbAw==}
-
-  '@cristal/rendering@0.0.0-20240522094030':
-    resolution: {integrity: sha512-aM5eoqF9xc/rXbEfuv27AA83/NfllIBNNrc3FvgpiIc6djiRGBE8jMTdus7c6BoXTrusp3hvwPgVBmT3ok4BTA==}
-
-  '@cristal/sharedworker-api@0.0.0-20240522094030':
-    resolution: {integrity: sha512-5yodkckKIgUzPlR+tXpVfdsbBiyFM723eoH9Z8yI0Cz7GJlzdTpNK/nW0VjBTfmGEOYFbGwEvUCoS1SvfUgzEQ==}
-
-  '@cristal/sharedworker-impl@0.0.0-20240522094030':
-    resolution: {integrity: sha512-K0EwTaQ3BG5douubnHtGp+/v/H9g2yGoOZzTOZvzA/XtQ/4d3CIhXDrNjsmXUwRgl2e3rEGdf3LdpjgZzTUmEg==}
-
-  '@cristal/skin@0.0.0-20240522094030':
-    resolution: {integrity: sha512-c921wp4jk3nFTQclw6fYOpYzdShDjE+prW8+OM6tjTmNK98B6BHWo8WS22ZBJLuY8A/Orppeg3Nwc2VrLzcd3g==}
-
-  '@cristal/storage@0.0.0-20240522094030':
-    resolution: {integrity: sha512-KsTeVDGXkkIWfSUv1EfJM07+BmdvrZAnvAsUo5oumEXcYV0fT5I8aDo/ejezP9Lf3WeQEHsumaBP5d/Y6YkUvA==}
 
   '@ctrl/tinycolor@4.1.0':
     resolution: {integrity: sha512-WyOx8cJQ+FQus4Mm4uPIZA64gbk3Wxh0so5Lcii0aJifqwoVOlfFtorjLE0Hen4OYyHZMXDWqMmaQemBhgxFRQ==}
@@ -532,6 +472,66 @@ packages:
   '@vue/shared@3.4.27':
     resolution: {integrity: sha512-DL3NmY2OFlqmYYrzp39yi3LDkKxa5vZVwxWdQ3rG0ekuWscHraeIbnI8t+aZK7qhYqEqWKTUdijadunb9pnrgA==}
 
+  '@xwiki/cristal-api@0.0.0-20240530100452':
+    resolution: {integrity: sha512-mU7v7B5c52rloLzK0yRKyaC2Edp7oBmqe5TVTL8YOnljpFh/kJsjtysslLZOdKH/GFUzSKGh0dUARMLPVZ1k7g==}
+
+  '@xwiki/cristal-browser-api@0.0.0-20240530100452':
+    resolution: {integrity: sha512-NgUv4eB3iatoK6AlcDoBdsUMBXG9Ha/sYVdxYU/77RyTMm6GG/tnZC/+VieLWySy+tGyiWB/ZY8BE+YwS3xGQw==}
+
+  '@xwiki/cristal-browser-default@0.0.0-20240530100452':
+    resolution: {integrity: sha512-Ul+k2SOXgOVXHEXsHoUdEbFMkxZt6cMy6+hGg8jtDtM3qC55+uEYRbztVv/NMamb855FzBmZWBgSTVOBRmLHDw==}
+
+  '@xwiki/cristal-dsapi@0.0.0-20240530100452':
+    resolution: {integrity: sha512-SBfSeB2Xw00kBzva5JTNzVmUYfXEBn2XaOQcsCRbmrYiolaA0TqDnHLHX1+TxAVCowKtkDWHe5o8SeSckuh1HA==}
+
+  '@xwiki/cristal-dsfr@0.0.0-20240530100452':
+    resolution: {integrity: sha512-v4Lh1f8Lj+lNjYoVTmLHzcmyuxoxT05WK2wxSHvhZYgUSKXAeNUw/c9g0rU7N4SEqhQZV4EdzH0J8hHmqPB3tA==}
+
+  '@xwiki/cristal-dsshoelace@0.0.0-20240530100452':
+    resolution: {integrity: sha512-3tjAnjWSc1sELciykpoBjPvGoN4jIYDqQHzeNiRCFnyMtZqWjXxE9T5hsSG+03/tVsDUO5mJw6mMaIpfrATPHg==}
+
+  '@xwiki/cristal-dsvuetify@0.0.0-20240530100452':
+    resolution: {integrity: sha512-r5+Vgbv7se978GG2J5JA8Mmzx+mmM+ykJbq57wg0RnW3NMpMarEsQCiX0/qTYpZTJjI8X9eBEuFlNFM82Rmzgw==}
+
+  '@xwiki/cristal-editors-tiptap@0.0.0-20240530100452':
+    resolution: {integrity: sha512-Rl4G1WJUPRuS6o9tfgrF4YRZ0j3ljGyZXFxIIPArqD+E5za7VDD24VeVq489SjHhv3llUB4GWJSi1tnQoxOIzw==}
+
+  '@xwiki/cristal-extension-manager@0.0.0-20240530100452':
+    resolution: {integrity: sha512-B3xpazgnsJpVWHzrguGeFToXOOZAPQKYj5IwCrfyVa9dWE548o55T54sf3DKBnkZd7+kqLnsyxVN1GXa0FGL9Q==}
+
+  '@xwiki/cristal-extension-menubuttons@0.0.0-20240530100452':
+    resolution: {integrity: sha512-1DmWsHI7KZ6Tdhthv/JRhkFtr5+cIF8aerBcXm1X8+ligAZuSKSSDystEyauCm67FH0IpKvDgv3QoGDkGP781w==}
+
+  '@xwiki/cristal-icons@0.0.0-20240530100452':
+    resolution: {integrity: sha512-GDlE+6IQZgBv08Ug/V7B7X3rIG3GqnLZL8ZMgpl7b1oP5zhIYHJcMUsAwWCuRkhgo/M4QL/XIv9I3q6+h+y3WQ==}
+
+  '@xwiki/cristal-lib@0.0.0-20240530100452':
+    resolution: {integrity: sha512-cBwxH/sMzLWSJxb7WTR5omPVkrKbFOReVXyeLyEWicE1sQoslmEC9FmbYZXGzxMiXmyyi/0NQpIaSDLOSfLloQ==}
+
+  '@xwiki/cristal-link-suggest-api@0.0.0-20240530100452':
+    resolution: {integrity: sha512-jbqsjVO/C1h15/Py6zyzel7O26H18UiUy5x+oE9Js2srAUhRI8SmPkP3bzJZqJL3DLovjH2S0aW0Im8p3TgkOA==}
+
+  '@xwiki/cristal-macros@0.0.0-20240530100452':
+    resolution: {integrity: sha512-STatKtKF1UpV1lAMSrT3P1AaRUqxyaTF86vZ62CPtp7p3lAHxh4oc2DsH4xfPSS7p9panLRsB+ZlhdArsLq/PQ==}
+
+  '@xwiki/cristal-rendering-wikimodel@0.0.0-20240530100452':
+    resolution: {integrity: sha512-IaD6VdUQv2zhqsYvb7Ktp3T5FL5evH40Hfm/EhQl/I2CRMWUpXiQyUVBg4UrYXbXrVZtSmFD8lv65oeArOUbyQ==}
+
+  '@xwiki/cristal-rendering@0.0.0-20240530100452':
+    resolution: {integrity: sha512-m53/t7mlaFCVOHpa1z871wQ79ZlmF2NT13K8KSjbD3LdrdGPasFwUsZjUo86p97+Vii0xtvKv9TACe1SbZ792g==}
+
+  '@xwiki/cristal-sharedworker-api@0.0.0-20240530100452':
+    resolution: {integrity: sha512-mycCOYnsN9xMzeHNWK15l7/e115LLyU15EhKmK8OVQltZdxFC/jXH3Z1nwKj1MndguW4H8eH1ChvSsxDBEnGyA==}
+
+  '@xwiki/cristal-sharedworker-impl@0.0.0-20240530100452':
+    resolution: {integrity: sha512-lf+GG9P5ZJyR0Ae1WkZlp6l6OBF2dJsr9KA4yHvDefLkVxjUKiCPfCvk5rwqfCKCw0NbIqkFztcpuKjq/jVvFg==}
+
+  '@xwiki/cristal-skin@0.0.0-20240530100452':
+    resolution: {integrity: sha512-rELmd7QXiBu0bOnaM2C+JKjKEZRs8TWswtf+5dPt51uZg+lOc1lL1IxRslOT273embSHXITI6ilso4I3/2DBdQ==}
+
+  '@xwiki/cristal-storage@0.0.0-20240530100452':
+    resolution: {integrity: sha512-+933PBU4zD0BykRUvEmTz667c15wPca+elJGoF0neS9jVuh38F+ioe9hoedSGAgAjmAAxiZ9t0r+O+4tVmArxA==}
+
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
 
@@ -871,254 +871,6 @@ snapshots:
       '@babel/helper-string-parser': 7.24.1
       '@babel/helper-validator-identifier': 7.24.5
       to-fast-properties: 2.0.0
-
-  '@cristal/api@0.0.0-20240522094030':
-    dependencies:
-      inversify: 6.0.2
-      vue: 3.4.27
-      vue-i18n: 9.13.1(vue@3.4.27)
-      vue-router: 4.3.2(vue@3.4.27)
-    transitivePeerDependencies:
-      - typescript
-
-  '@cristal/browser-api@0.0.0-20240522094030':
-    dependencies:
-      '@cristal/api': 0.0.0-20240522094030
-    transitivePeerDependencies:
-      - typescript
-
-  '@cristal/browser-default@0.0.0-20240522094030':
-    dependencies:
-      '@cristal/api': 0.0.0-20240522094030
-      '@cristal/browser-api': 0.0.0-20240522094030
-      inversify: 6.0.2
-    transitivePeerDependencies:
-      - typescript
-
-  '@cristal/dsapi@0.0.0-20240522094030': {}
-
-  '@cristal/dsfr@0.0.0-20240522094030':
-    dependencies:
-      '@cristal/api': 0.0.0-20240522094030
-      '@gouvfr/dsfr': 1.11.2
-      '@gouvminint/vue-dsfr': 5.11.0(oh-vue-icons@1.0.0-rc3(vue@3.4.27))(vue-router@4.3.2(vue@3.4.27))(vue@3.4.27)
-      inversify: 6.0.2
-      oh-vue-icons: 1.0.0-rc3(vue@3.4.27)
-      vue: 3.4.27
-      vue-i18n: 9.13.1(vue@3.4.27)
-      vue-router: 4.3.2(vue@3.4.27)
-      vuetify: 3.6.7(vue-i18n@9.13.1(vue@3.4.27))(vue@3.4.27)
-    transitivePeerDependencies:
-      - '@vue/composition-api'
-      - typescript
-      - vite-plugin-vuetify
-      - webpack-plugin-vuetify
-
-  '@cristal/dsshoelace@0.0.0-20240522094030(@types/react@18.3.2)':
-    dependencies:
-      '@cristal/api': 0.0.0-20240522094030
-      '@cristal/dsapi': 0.0.0-20240522094030
-      '@shoelace-style/shoelace': 2.15.1(@types/react@18.3.2)
-      inversify: 6.0.2
-      vue: 3.4.27
-    transitivePeerDependencies:
-      - '@types/react'
-      - typescript
-
-  '@cristal/dsvuetify@0.0.0-20240522094030':
-    dependencies:
-      '@cristal/api': 0.0.0-20240522094030
-      '@cristal/dsapi': 0.0.0-20240522094030
-      inversify: 6.0.2
-      vue: 3.4.27
-      vue-i18n: 9.13.1(vue@3.4.27)
-      vuetify: 3.6.7(vue-i18n@9.13.1(vue@3.4.27))(vue@3.4.27)
-    transitivePeerDependencies:
-      - typescript
-      - vite-plugin-vuetify
-      - webpack-plugin-vuetify
-
-  '@cristal/editors-tiptap@0.0.0-20240522094030(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))':
-    dependencies:
-      '@cristal/api': 0.0.0-20240522094030
-      '@cristal/icons': 0.0.0-20240522094030
-      '@cristal/link-suggest-api': 0.0.0-20240522094030
-      '@cristal/skin': 0.0.0-20240522094030
-      '@tiptap/extension-blockquote': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
-      '@tiptap/extension-bullet-list': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
-      '@tiptap/extension-code': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
-      '@tiptap/extension-code-block': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))(@tiptap/pm@2.4.0)
-      '@tiptap/extension-document': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
-      '@tiptap/extension-heading': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
-      '@tiptap/extension-image': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
-      '@tiptap/extension-link': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))(@tiptap/pm@2.4.0)
-      '@tiptap/extension-list-item': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
-      '@tiptap/extension-ordered-list': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
-      '@tiptap/extension-placeholder': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))(@tiptap/pm@2.4.0)
-      '@tiptap/extension-table': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))(@tiptap/pm@2.4.0)
-      '@tiptap/extension-table-cell': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
-      '@tiptap/extension-table-header': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
-      '@tiptap/extension-table-row': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
-      '@tiptap/extension-text': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
-      '@tiptap/pm': 2.4.0
-      '@tiptap/starter-kit': 2.4.0(@tiptap/pm@2.4.0)
-      '@tiptap/suggestion': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))(@tiptap/pm@2.4.0)
-      '@tiptap/vue-3': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))(@tiptap/pm@2.4.0)(vue@3.4.27)
-      inversify: 6.0.2
-      pinia: 2.1.7(vue@3.4.27)
-      tippy.js: 6.3.7
-      tiptap-markdown: 0.8.10(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
-      utility-types: 3.11.0
-      vue: 3.4.27
-    transitivePeerDependencies:
-      - '@tiptap/core'
-      - '@vue/composition-api'
-      - typescript
-      - vite-plugin-vuetify
-      - webpack-plugin-vuetify
-
-  '@cristal/extension-manager@0.0.0-20240522094030':
-    dependencies:
-      '@cristal/api': 0.0.0-20240522094030
-      inversify: 6.0.2
-      reflect-metadata: 0.2.2
-      vue: 3.4.27
-      vue-i18n: 9.13.1(vue@3.4.27)
-    transitivePeerDependencies:
-      - typescript
-
-  '@cristal/extension-menubuttons@0.0.0-20240522094030':
-    dependencies:
-      '@cristal/api': 0.0.0-20240522094030
-      '@cristal/skin': 0.0.0-20240522094030
-      inversify: 6.0.2
-      reflect-metadata: 0.2.2
-      vue: 3.4.27
-      vue-i18n: 9.13.1(vue@3.4.27)
-    transitivePeerDependencies:
-      - typescript
-      - vite-plugin-vuetify
-      - webpack-plugin-vuetify
-
-  '@cristal/icons@0.0.0-20240522094030':
-    dependencies:
-      bootstrap-icons: 1.11.3
-      vue: 3.4.27
-    transitivePeerDependencies:
-      - typescript
-
-  '@cristal/lib@0.0.0-20240522094030(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))(@types/react@18.3.2)':
-    dependencies:
-      '@cristal/api': 0.0.0-20240522094030
-      '@cristal/browser-api': 0.0.0-20240522094030
-      '@cristal/dsfr': 0.0.0-20240522094030
-      '@cristal/dsshoelace': 0.0.0-20240522094030(@types/react@18.3.2)
-      '@cristal/dsvuetify': 0.0.0-20240522094030
-      '@cristal/editors-tiptap': 0.0.0-20240522094030(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
-      '@cristal/extension-manager': 0.0.0-20240522094030
-      '@cristal/extension-menubuttons': 0.0.0-20240522094030
-      '@cristal/macros': 0.0.0-20240522094030
-      '@cristal/rendering': 0.0.0-20240522094030
-      '@cristal/sharedworker-impl': 0.0.0-20240522094030
-      '@cristal/skin': 0.0.0-20240522094030
-      '@cristal/storage': 0.0.0-20240522094030
-      '@mdi/font': 7.4.47
-      inversify: 6.0.2
-      reflect-metadata: 0.2.2
-      vue: 3.4.27
-      vue-i18n: 9.13.1(vue@3.4.27)
-      vue-router: 4.3.2(vue@3.4.27)
-      vuetify: 3.6.7(vue-i18n@9.13.1(vue@3.4.27))(vue@3.4.27)
-    transitivePeerDependencies:
-      - '@tiptap/core'
-      - '@types/react'
-      - '@vue/composition-api'
-      - typescript
-      - vite-plugin-vuetify
-      - webpack-plugin-vuetify
-
-  '@cristal/link-suggest-api@0.0.0-20240522094030': {}
-
-  '@cristal/macros@0.0.0-20240522094030':
-    dependencies:
-      '@cristal/api': 0.0.0-20240522094030
-      '@cristal/skin': 0.0.0-20240522094030
-      inversify: 6.0.2
-      vue: 3.4.27
-      vue-i18n: 9.13.1(vue@3.4.27)
-    transitivePeerDependencies:
-      - typescript
-      - vite-plugin-vuetify
-      - webpack-plugin-vuetify
-
-  '@cristal/rendering-wikimodel@0.0.0-20240522094030':
-    dependencies:
-      '@cristal/api': 0.0.0-20240522094030
-      vue: 3.4.27
-      vue-i18n: 9.13.1(vue@3.4.27)
-    transitivePeerDependencies:
-      - typescript
-
-  '@cristal/rendering@0.0.0-20240522094030':
-    dependencies:
-      '@cristal/api': 0.0.0-20240522094030
-      '@cristal/rendering-wikimodel': 0.0.0-20240522094030
-      dompurify: 3.1.4
-      inversify: 6.0.2
-      marked: 12.0.2
-      marked-base-url: 1.1.3(marked@12.0.2)
-    transitivePeerDependencies:
-      - typescript
-
-  '@cristal/sharedworker-api@0.0.0-20240522094030':
-    dependencies:
-      comlink: 4.4.1
-      vue: 3.4.27
-      vue-i18n: 9.13.1(vue@3.4.27)
-    transitivePeerDependencies:
-      - typescript
-
-  '@cristal/sharedworker-impl@0.0.0-20240522094030':
-    dependencies:
-      '@cristal/api': 0.0.0-20240522094030
-      '@cristal/extension-manager': 0.0.0-20240522094030
-      '@cristal/sharedworker-api': 0.0.0-20240522094030
-      '@cristal/storage': 0.0.0-20240522094030
-      comlink: 4.4.1
-      inversify: 6.0.2
-      vue: 3.4.27
-      vue-i18n: 9.13.1(vue@3.4.27)
-      vue-router: 4.3.2(vue@3.4.27)
-    transitivePeerDependencies:
-      - typescript
-
-  '@cristal/skin@0.0.0-20240522094030':
-    dependencies:
-      '@cristal/api': 0.0.0-20240522094030
-      '@cristal/icons': 0.0.0-20240522094030
-      inversify: 6.0.2
-      marked: 12.0.2
-      reflect-metadata: 0.2.2
-      vue: 3.4.27
-      vue-i18n: 9.13.1(vue@3.4.27)
-      vue-router: 4.3.2(vue@3.4.27)
-      vuetify: 3.6.7(vue-i18n@9.13.1(vue@3.4.27))(vue@3.4.27)
-    transitivePeerDependencies:
-      - typescript
-      - vite-plugin-vuetify
-      - webpack-plugin-vuetify
-
-  '@cristal/storage@0.0.0-20240522094030':
-    dependencies:
-      '@cristal/api': 0.0.0-20240522094030
-      '@cristal/sharedworker-api': 0.0.0-20240522094030
-      dexie: 4.0.4
-      inversify: 6.0.2
-      reflect-metadata: 0.2.2
-      vue: 3.4.27
-      vue-i18n: 9.13.1(vue@3.4.27)
-    transitivePeerDependencies:
-      - typescript
 
   '@ctrl/tinycolor@4.1.0': {}
 
@@ -1517,6 +1269,255 @@ snapshots:
       vue: 3.4.27
 
   '@vue/shared@3.4.27': {}
+
+  '@xwiki/cristal-api@0.0.0-20240530100452':
+    dependencies:
+      inversify: 6.0.2
+      vue: 3.4.27
+      vue-i18n: 9.13.1(vue@3.4.27)
+      vue-router: 4.3.2(vue@3.4.27)
+    transitivePeerDependencies:
+      - typescript
+
+  '@xwiki/cristal-browser-api@0.0.0-20240530100452':
+    dependencies:
+      '@xwiki/cristal-api': 0.0.0-20240530100452
+    transitivePeerDependencies:
+      - typescript
+
+  '@xwiki/cristal-browser-default@0.0.0-20240530100452':
+    dependencies:
+      '@xwiki/cristal-api': 0.0.0-20240530100452
+      '@xwiki/cristal-browser-api': 0.0.0-20240530100452
+      inversify: 6.0.2
+    transitivePeerDependencies:
+      - typescript
+
+  '@xwiki/cristal-dsapi@0.0.0-20240530100452': {}
+
+  '@xwiki/cristal-dsfr@0.0.0-20240530100452':
+    dependencies:
+      '@gouvfr/dsfr': 1.11.2
+      '@gouvminint/vue-dsfr': 5.11.0(oh-vue-icons@1.0.0-rc3(vue@3.4.27))(vue-router@4.3.2(vue@3.4.27))(vue@3.4.27)
+      '@xwiki/cristal-api': 0.0.0-20240530100452
+      inversify: 6.0.2
+      oh-vue-icons: 1.0.0-rc3(vue@3.4.27)
+      vue: 3.4.27
+      vue-i18n: 9.13.1(vue@3.4.27)
+      vue-router: 4.3.2(vue@3.4.27)
+      vuetify: 3.6.7(vue-i18n@9.13.1(vue@3.4.27))(vue@3.4.27)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - typescript
+      - vite-plugin-vuetify
+      - webpack-plugin-vuetify
+
+  '@xwiki/cristal-dsshoelace@0.0.0-20240530100452(@types/react@18.3.2)':
+    dependencies:
+      '@shoelace-style/shoelace': 2.15.1(@types/react@18.3.2)
+      '@xwiki/cristal-api': 0.0.0-20240530100452
+      '@xwiki/cristal-dsapi': 0.0.0-20240530100452
+      inversify: 6.0.2
+      vue: 3.4.27
+    transitivePeerDependencies:
+      - '@types/react'
+      - typescript
+
+  '@xwiki/cristal-dsvuetify@0.0.0-20240530100452':
+    dependencies:
+      '@xwiki/cristal-api': 0.0.0-20240530100452
+      '@xwiki/cristal-dsapi': 0.0.0-20240530100452
+      inversify: 6.0.2
+      vue: 3.4.27
+      vue-i18n: 9.13.1(vue@3.4.27)
+      vuetify: 3.6.7(vue-i18n@9.13.1(vue@3.4.27))(vue@3.4.27)
+    transitivePeerDependencies:
+      - typescript
+      - vite-plugin-vuetify
+      - webpack-plugin-vuetify
+
+  '@xwiki/cristal-editors-tiptap@0.0.0-20240530100452(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))':
+    dependencies:
+      '@tiptap/extension-blockquote': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
+      '@tiptap/extension-bullet-list': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
+      '@tiptap/extension-code': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
+      '@tiptap/extension-code-block': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))(@tiptap/pm@2.4.0)
+      '@tiptap/extension-document': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
+      '@tiptap/extension-heading': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
+      '@tiptap/extension-image': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
+      '@tiptap/extension-link': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))(@tiptap/pm@2.4.0)
+      '@tiptap/extension-list-item': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
+      '@tiptap/extension-ordered-list': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
+      '@tiptap/extension-placeholder': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))(@tiptap/pm@2.4.0)
+      '@tiptap/extension-table': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))(@tiptap/pm@2.4.0)
+      '@tiptap/extension-table-cell': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
+      '@tiptap/extension-table-header': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
+      '@tiptap/extension-table-row': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
+      '@tiptap/extension-text': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
+      '@tiptap/pm': 2.4.0
+      '@tiptap/starter-kit': 2.4.0(@tiptap/pm@2.4.0)
+      '@tiptap/suggestion': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))(@tiptap/pm@2.4.0)
+      '@tiptap/vue-3': 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))(@tiptap/pm@2.4.0)(vue@3.4.27)
+      '@xwiki/cristal-api': 0.0.0-20240530100452
+      '@xwiki/cristal-icons': 0.0.0-20240530100452
+      '@xwiki/cristal-link-suggest-api': 0.0.0-20240530100452
+      '@xwiki/cristal-skin': 0.0.0-20240530100452
+      inversify: 6.0.2
+      pinia: 2.1.7(vue@3.4.27)
+      tippy.js: 6.3.7
+      tiptap-markdown: 0.8.10(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
+      utility-types: 3.11.0
+      vue: 3.4.27
+    transitivePeerDependencies:
+      - '@tiptap/core'
+      - '@vue/composition-api'
+      - typescript
+      - vite-plugin-vuetify
+      - webpack-plugin-vuetify
+
+  '@xwiki/cristal-extension-manager@0.0.0-20240530100452':
+    dependencies:
+      '@xwiki/cristal-api': 0.0.0-20240530100452
+      inversify: 6.0.2
+      reflect-metadata: 0.2.2
+      vue: 3.4.27
+      vue-i18n: 9.13.1(vue@3.4.27)
+    transitivePeerDependencies:
+      - typescript
+
+  '@xwiki/cristal-extension-menubuttons@0.0.0-20240530100452':
+    dependencies:
+      '@xwiki/cristal-api': 0.0.0-20240530100452
+      '@xwiki/cristal-skin': 0.0.0-20240530100452
+      inversify: 6.0.2
+      reflect-metadata: 0.2.2
+      vue: 3.4.27
+      vue-i18n: 9.13.1(vue@3.4.27)
+    transitivePeerDependencies:
+      - typescript
+      - vite-plugin-vuetify
+      - webpack-plugin-vuetify
+
+  '@xwiki/cristal-icons@0.0.0-20240530100452':
+    dependencies:
+      bootstrap-icons: 1.11.3
+      vue: 3.4.27
+    transitivePeerDependencies:
+      - typescript
+
+  '@xwiki/cristal-lib@0.0.0-20240530100452(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))(@types/react@18.3.2)':
+    dependencies:
+      '@mdi/font': 7.4.47
+      '@xwiki/cristal-api': 0.0.0-20240530100452
+      '@xwiki/cristal-browser-api': 0.0.0-20240530100452
+      '@xwiki/cristal-dsfr': 0.0.0-20240530100452
+      '@xwiki/cristal-dsshoelace': 0.0.0-20240530100452(@types/react@18.3.2)
+      '@xwiki/cristal-dsvuetify': 0.0.0-20240530100452
+      '@xwiki/cristal-editors-tiptap': 0.0.0-20240530100452(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))
+      '@xwiki/cristal-extension-manager': 0.0.0-20240530100452
+      '@xwiki/cristal-extension-menubuttons': 0.0.0-20240530100452
+      '@xwiki/cristal-macros': 0.0.0-20240530100452
+      '@xwiki/cristal-rendering': 0.0.0-20240530100452
+      '@xwiki/cristal-sharedworker-impl': 0.0.0-20240530100452
+      '@xwiki/cristal-skin': 0.0.0-20240530100452
+      '@xwiki/cristal-storage': 0.0.0-20240530100452
+      inversify: 6.0.2
+      reflect-metadata: 0.2.2
+      utility-types: 3.11.0
+      vue: 3.4.27
+      vue-i18n: 9.13.1(vue@3.4.27)
+      vue-router: 4.3.2(vue@3.4.27)
+      vuetify: 3.6.7(vue-i18n@9.13.1(vue@3.4.27))(vue@3.4.27)
+    transitivePeerDependencies:
+      - '@tiptap/core'
+      - '@types/react'
+      - '@vue/composition-api'
+      - typescript
+      - vite-plugin-vuetify
+      - webpack-plugin-vuetify
+
+  '@xwiki/cristal-link-suggest-api@0.0.0-20240530100452': {}
+
+  '@xwiki/cristal-macros@0.0.0-20240530100452':
+    dependencies:
+      '@xwiki/cristal-api': 0.0.0-20240530100452
+      '@xwiki/cristal-skin': 0.0.0-20240530100452
+      inversify: 6.0.2
+      vue: 3.4.27
+      vue-i18n: 9.13.1(vue@3.4.27)
+    transitivePeerDependencies:
+      - typescript
+      - vite-plugin-vuetify
+      - webpack-plugin-vuetify
+
+  '@xwiki/cristal-rendering-wikimodel@0.0.0-20240530100452':
+    dependencies:
+      '@xwiki/cristal-api': 0.0.0-20240530100452
+      vue: 3.4.27
+      vue-i18n: 9.13.1(vue@3.4.27)
+    transitivePeerDependencies:
+      - typescript
+
+  '@xwiki/cristal-rendering@0.0.0-20240530100452':
+    dependencies:
+      '@xwiki/cristal-api': 0.0.0-20240530100452
+      '@xwiki/cristal-rendering-wikimodel': 0.0.0-20240530100452
+      dompurify: 3.1.4
+      inversify: 6.0.2
+      marked: 12.0.2
+      marked-base-url: 1.1.3(marked@12.0.2)
+    transitivePeerDependencies:
+      - typescript
+
+  '@xwiki/cristal-sharedworker-api@0.0.0-20240530100452':
+    dependencies:
+      comlink: 4.4.1
+      vue: 3.4.27
+      vue-i18n: 9.13.1(vue@3.4.27)
+    transitivePeerDependencies:
+      - typescript
+
+  '@xwiki/cristal-sharedworker-impl@0.0.0-20240530100452':
+    dependencies:
+      '@xwiki/cristal-api': 0.0.0-20240530100452
+      '@xwiki/cristal-extension-manager': 0.0.0-20240530100452
+      '@xwiki/cristal-sharedworker-api': 0.0.0-20240530100452
+      '@xwiki/cristal-storage': 0.0.0-20240530100452
+      comlink: 4.4.1
+      inversify: 6.0.2
+      vue: 3.4.27
+      vue-i18n: 9.13.1(vue@3.4.27)
+      vue-router: 4.3.2(vue@3.4.27)
+    transitivePeerDependencies:
+      - typescript
+
+  '@xwiki/cristal-skin@0.0.0-20240530100452':
+    dependencies:
+      '@xwiki/cristal-api': 0.0.0-20240530100452
+      '@xwiki/cristal-icons': 0.0.0-20240530100452
+      inversify: 6.0.2
+      marked: 12.0.2
+      reflect-metadata: 0.2.2
+      vue: 3.4.27
+      vue-i18n: 9.13.1(vue@3.4.27)
+      vue-router: 4.3.2(vue@3.4.27)
+      vuetify: 3.6.7(vue-i18n@9.13.1(vue@3.4.27))(vue@3.4.27)
+    transitivePeerDependencies:
+      - typescript
+      - vite-plugin-vuetify
+      - webpack-plugin-vuetify
+
+  '@xwiki/cristal-storage@0.0.0-20240530100452':
+    dependencies:
+      '@xwiki/cristal-api': 0.0.0-20240530100452
+      '@xwiki/cristal-sharedworker-api': 0.0.0-20240530100452
+      dexie: 4.0.4
+      inversify: 6.0.2
+      reflect-metadata: 0.2.2
+      vue: 3.4.27
+      vue-i18n: 9.13.1(vue@3.4.27)
+    transitivePeerDependencies:
+      - typescript
 
   argparse@2.0.1: {}
 
