@@ -23,15 +23,15 @@ CristalAppLoader.init([
     ],
     async () => {
         return {
-            "Nextcloud": {
+            "XWikiSL": {
                 "name": "apps/cristal/",
-                "configType": "Nextcloud",
+                "configType": "XWiki",
                 "serverRendering": false,
                 "offline": false,
                 "baseURL": "https://cristal.demo.xwiki.com/xwiki",
                 "baseRestURL": "/rest/cristal/page?media=json",
                 "homePage": "Main.WebHome",
-                "designSystem": "nextcloud"
+                "designSystem": "shoelace"
             }
         }
     },
